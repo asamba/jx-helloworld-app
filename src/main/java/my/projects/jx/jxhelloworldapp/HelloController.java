@@ -13,7 +13,7 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String sayHello(){
-        return "Hello World - from RestFul Service from master again!";
+        return "Hello World - from RestFul Service";
     }
 
 }
